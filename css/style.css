@@ -1,0 +1,151 @@
+.navbar {
+
+	background: #000;
+}
+
+.navbar .nav-item{
+
+	padding-left: 20px;
+}
+
+.navbar .nav-item .nav-link{
+
+	text-transform: uppercase;
+}
+
+.carousel-item{
+	height: 450px;
+}
+
+.carousel-img-1{
+	background-image: url('../img/index1.jpeg');
+	background-size: cover;
+}
+
+.carousel-img-2{
+	background-image: url('../img/index2.jpeg');
+	background-size: cover;
+}
+
+.carousel-img-3{
+	background-image: url('../img/index3.jpeg');
+	background-size: cover;
+}
+
+#home-section .fa{
+
+	font-size: 50px;
+}
+
+#getstart{
+	position: relative;
+	background: url('../img/a.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+
+.dark-overlay{
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	min-height: 250px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#home-video{
+	position: relative;
+	background: url('../img/b.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+
+.dark-overlay .fa{
+
+	font-size: 50px;
+	color: #ff0000;
+}
+
+#photo-gallery img{
+    min-height: 250px;
+
+}
+
+#copyright{
+
+	background: #000;
+}
+
+#about-header{
+	background: url('../img/index1.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#about-info img{
+	width: 350px;
+	height: 350px;
+}
+
+#about-icon .fa{
+
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+#testimonial .slick-prev::before, .slick-next::before{
+	color: #000;
+}
+
+#service-header{
+    background: url('../img/index3.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+#blog-header{
+    background: url('../img/index3.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+#contact-header{
+	background: url('../img/index3.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+ .nav-item{
+ 	padding-left: 0;
+ }
+ #getstart{
+ 	min-height: 300px;
+ }
+}
+
+@media(max-width: 480px){
+	.carousel h3{
+			font-size: 2.5rem;
+		}
+	#getstart{
+ 	       min-height: 400px;
+        }
+}
